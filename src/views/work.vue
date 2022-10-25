@@ -1,0 +1,140 @@
+<template>
+  <section>
+    <div class="tile is-ancestor mt-3">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <div class="columns">
+            <div class="column">
+              <p class="title">Custom CMS</p>
+              <p class="subtitle">Sponsored Content Customization</p>
+              <div class="content">
+                <p>
+                  We cloned all of the templates from every existing domain and its CMS and retooled it using our choice of framework. We then incorporated all of the customization options
+                </p>
+              </div>
+            </div>
+            <div class="column is-three-fifths p-0">
+              <figure class="m-0">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+              </figure>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <div class="columns">
+            <div class="column">
+              <p class="title">Custom Analytics Dashboard (B2B)</p>
+              <p class="subtitle">Pharmaceutical Coupon Program Performance Reports</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+              </figure>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Main column</p>
+          <p class="subtitle">With some content</p>
+          <div class="content columns">
+            <div class="column">
+              <figure class="image is-2by1 m-0">
+                <img src="https://bulma.io/images/placeholders/640x320.png">
+              </figure>
+              <div class="content">
+                <h5 class="subtitle is-5 mb-0 mt-2">Blah</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </div>
+          <div class="column">
+              <figure class="image is-2by1 m-0">
+                <img src="https://bulma.io/images/placeholders/640x320.png">
+              </figure>
+              <div class="content">
+                <h5 class="subtitle is-5 mb-0 mt-2">Blah</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </div>
+          <div class="column">
+              <figure class="image is-2by1 m-0">
+                <img src="https://bulma.io/images/placeholders/640x320.png">
+              </figure>
+              <div class="content">
+                <h5 class="subtitle is-5 mb-0 mt-2">Blah</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <div class="columns">
+            <div class="column">
+              <p class="title">Custom CMS</p>
+              <p class="subtitle">Sponsored Content Customization</p>
+              <div class="content">
+                <p>
+                  We cloned all of the templates from every existing domain and its CMS and retooled it using our choice of framework. We then incorporated all of the customization options
+                </p>
+              </div>
+            </div>
+            <div class="column is-three-fifths p-0">
+              <figure class="m-0">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+              </figure>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Side column</p>
+          <p class="subtitle">With some content</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent is-8">
+        <article class="tile is-child box">
+          <p class="title">Main column</p>
+          <p class="subtitle">With some content</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style>
+@media (min-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+</style>
